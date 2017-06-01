@@ -51,7 +51,26 @@
 /* 1 */
 /***/ (function(module, exports) {
 
-	"use strict";
+	/*
+	* @Author: huchunhui
+	* @Date:   2017-06-01 10:41:57
+	* @Last Modified by:   huchunhui
+	* @Last Modified time: 2017-06-01 11:42:45
+	*/
+
+	'use strict';
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	var Test = function Test() {
+		_classCallCheck(this, Test);
+
+		this.a = "hello world";
+	};
+
+	var test = new Test();
+
+	document.body.innerHTML = test.a;
 
 /***/ })
 /******/ ]);

@@ -21,8 +21,6 @@ const args = yargs
     })
 
     .option('sourcemaps', {
-        boolean: true,
-        default: false,
         describle: 'force the creation of sroucemaps'
     })
 

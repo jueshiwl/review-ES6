@@ -1,6 +1,7 @@
 'use strict';
 
-// import 'babel-polyfill'
+import 'babel-polyfill'
+import Lottery from './lottery'
 
 // import './class/lesson1.js'
 // import './class/lesson2.js'
@@ -17,4 +18,4 @@
 // import './class/lesson13.js'
 // import './class/lesson14.js'
 // import './class/lesson15.js'
-import './class/lesson16.js'
+// import './class/lesson16.js'

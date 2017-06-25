@@ -3,6 +3,9 @@
 import 'babel-polyfill'
 import Lottery from './lottery'
 
+const syy = new Lottery()
+
+
 // import './class/lesson1.js'
 // import './class/lesson2.js'
 // import './class/lesson3.js'
